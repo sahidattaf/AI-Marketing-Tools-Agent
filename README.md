@@ -1,4 +1,4 @@
-# AI Marketing Tools Platform
+# AI Marketing Tools Platform 
 
 ![AI Marketing Tools Llogo)
 
@@ -227,8 +227,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 For support, please contact:
 
+. phone +5999 523 0683
 - **Email**: sahidattaf@gmail.com
-- **Website**:https://kpnkudil.manus.space/
+- **Website**      AI Marketing Tools Presentation:https://kpnkudil.manus.space/
+- **Plateform** AI Marketing Tools https://manus.im/share/file/b7bce41a-a106-4a90-87fd-46efd91c5f7e
 - **Documentation**:
 
 ## 🙏 Acknowledgements
