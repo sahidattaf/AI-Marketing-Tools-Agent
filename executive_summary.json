@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-07-27T16:28:30.390812",
+  "key_metrics": {
+    "total_users": 1429,
+    "daily_active_users": 187,
+    "conversion_rate": 3.89,
+    "monthly_recurring_revenue": 11241,
+    "churn_rate": 3.88,
+    "user_satisfaction": 4.4
+  },
+  "insights": [
+    "Platform has 1,429 total users with 3.89% conversion rate",
+    "Chatbot handled 79 conversations today with 4.4/5 satisfaction",
+    "MRR is $11,241 with 3.88% monthly churn",
+    "System uptime is 99.6% with 238.0ms avg response time"
+  ],
+  "recommendations": [
+    "Focus on converting free tier users to paid plans",
+    "Improve chatbot training for better satisfaction scores",
+    "Implement retention campaigns to reduce churn",
+    "Optimize API performance for better user experience"
+  ],
+  "alerts": [
+    "Churn rate at 3.88% - monitor closely",
+    "API response time trending stable",
+    "Conversion rate below target at 3.89%"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "api_base_url": "http://localhost:5000",
+  "web_app_url": "http://localhost:5173",
+  "mobile_app_url": "http://localhost:19006",
+  "check_interval": 60,
+  "alert_thresholds": {
+    "response_time_ms": 5000,
+    "error_rate_percent": 5.0,
+    "cpu_usage_percent": 80.0,
+    "memory_usage_percent": 85.0,
+    "disk_usage_percent": 90.0,
+    "uptime_percent": 99.0
+  },
+  "email_alerts": {
+    "enabled": false,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "alerts@ai-marketing-tools.com",
+    "sender_password": "your_password_here",
+    "recipients": [
+      "admin@ai-marketing-tools.com",
+      "devops@ai-marketing-tools.com"
+    ]
+  },
+  "services_to_monitor": [
+    "backend_api",
+    "web_app",
+    "mobile_app",
+    "database",
+    "system_resources"
+  ],
+  "notification_settings": {
+    "alert_cooldown_minutes": 15,
+    "escalation_rules": {
+      "critical": {
+        "immediate": true,
+        "escalate_after_minutes": 5
+      },
+      "warning": {
+        "immediate": false,
+        "escalate_after_minutes": 30
+      }
+    }
+  },
+  "performance_targets": {
+    "api_response_time_ms": 500,
+    "web_page_load_time_ms": 2000,
+    "uptime_percentage": 99.9,
+    "error_rate_percentage": 0.1
+  },
+  "backup_settings": {
+    "database_backup_interval_hours": 6,
+    "log_retention_days": 30,
+    "metrics_retention_days": 90
+  }
+}
+

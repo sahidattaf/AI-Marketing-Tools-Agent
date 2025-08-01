@@ -1,0 +1,155 @@
+{
+  "analysis_period_hours": 168,
+  "generated_at": "2025-07-27T20:57:46.000367",
+  "data_summary": {
+    "monitoring_records": 10,
+    "system_metrics_records": 2,
+    "services_analyzed": 5
+  },
+  "response_time_analysis": {
+    "overall_stats": {
+      "mean": 2.25,
+      "median": 2.0,
+      "p95": 5.0,
+      "p99": 5.0,
+      "std": 2.052872551885702,
+      "min": 0.0,
+      "max": 5.0
+    },
+    "by_service": {
+      "backend_api": {
+        "mean": 4.0,
+        "median": 4.0,
+        "p95": 4.9,
+        "count": 2
+      },
+      "web_app": {
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0,
+        "count": 2
+      },
+      "mobile_app": {
+        "mean": 4.0,
+        "median": 4.0,
+        "p95": 4.9,
+        "count": 2
+      },
+      "database": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "count": 2
+      }
+    },
+    "trends": {},
+    "anomalies": []
+  },
+  "availability_analysis": {
+    "overall_uptime": {
+      "percentage": 80.0,
+      "total_checks": 10,
+      "healthy_checks": 8,
+      "failed_checks": 2
+    },
+    "by_service": {
+      "backend_api": {
+        "uptime_percentage": 100.0,
+        "total_checks": 2,
+        "healthy_checks": 2,
+        "failed_checks": 0
+      },
+      "web_app": {
+        "uptime_percentage": 0.0,
+        "total_checks": 2,
+        "healthy_checks": 0,
+        "failed_checks": 2
+      },
+      "mobile_app": {
+        "uptime_percentage": 100.0,
+        "total_checks": 2,
+        "healthy_checks": 2,
+        "failed_checks": 0
+      },
+      "database": {
+        "uptime_percentage": 100.0,
+        "total_checks": 2,
+        "healthy_checks": 2,
+        "failed_checks": 0
+      },
+      "system_resources": {
+        "uptime_percentage": 100.0,
+        "total_checks": 2,
+        "healthy_checks": 2,
+        "failed_checks": 0
+      }
+    },
+    "downtime_incidents": [
+      {
+        "service": "web_app",
+        "start_time": "2025-07-27T20:28:44",
+        "end_time": "2025-07-27T20:28:45",
+        "duration_minutes": 0.016666666666666666,
+        "status": "error",
+        "error": "HTTPConnectionPool(host='localhost', port=5173): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcfc31f2950>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+      }
+    ],
+    "mttr": {}
+  },
+  "system_performance_analysis": {
+    "cpu_analysis": {
+      "average": 0.7,
+      "peak": 0.7,
+      "p95": 0.7,
+      "std": 0.0,
+      "above_80_percent": 0.0
+    },
+    "memory_analysis": {
+      "average": 40.4,
+      "peak": 40.4,
+      "p95": 40.4,
+      "std": 0.0,
+      "above_85_percent": 0.0
+    },
+    "disk_analysis": {
+      "average": 19.855228184981915,
+      "peak": 19.85523314975585,
+      "p95": 19.855232653278456,
+      "std": 7.0212506343610676e-06,
+      "above_90_percent": 0.0
+    },
+    "resource_correlations": {
+      "cpu_usage": {
+        "cpu_usage": NaN,
+        "memory_usage": NaN,
+        "disk_usage": NaN
+      },
+      "memory_usage": {
+        "cpu_usage": NaN,
+        "memory_usage": NaN,
+        "disk_usage": NaN
+      },
+      "disk_usage": {
+        "cpu_usage": NaN,
+        "memory_usage": NaN,
+        "disk_usage": 1.0
+      }
+    },
+    "peak_usage_times": {
+      "cpu_peak_hour": 20,
+      "hourly_cpu_avg": {
+        "20": 0.7
+      }
+    }
+  },
+  "optimization_recommendations": [
+    {
+      "category": "Reliability",
+      "priority": "Critical",
+      "issue": "Low uptime (80.00%)",
+      "recommendation": "Implement redundancy, improve error handling, and add health checks",
+      "impact": "Business continuity"
+    }
+  ],
+  "visualization_path": "/home/ubuntu/AI_Marketing_Tools_Workspace/analytics-monitoring/reports/performance_analysis.png"
+}
