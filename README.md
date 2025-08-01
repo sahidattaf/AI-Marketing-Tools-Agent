@@ -1,6 +1,6 @@
 # AI Marketing Tools Platform
 
-![AI Marketing Tools Logo](marketing-assets/brochures/ai_marketing_brochure_front.png)
+![AI Marketing Tools Llogo)
 
 A comprehensive AI-powered marketing platform with web app, mobile app, backend services, and analytics tools to boost your business with intelligent marketing solutions.
 
@@ -154,8 +154,8 @@ Comprehensive documentation is available in the `docs/` directory:
 
 Access our demo environment:
 
-- **Web App**: [https://demo.ai-marketing-tools.com](https://demo.ai-marketing-tools.com)
-- **API Docs**: [https://api.ai-marketing-tools.com/docs](https://api.ai-marketing-tools.com/docs)
+- **Web App**: (https://kpnkudil.manus.space/)
+- **API Docs**: (https://kpnkudil.manus.space/)
 - **Mobile App**: Download from App Store or Google Play
 
 Demo credentials:
@@ -227,9 +227,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 For support, please contact:
 
-- **Email**: support@ai-marketing-tools.com
-- **Website**: https://ai-marketing-tools.com/support
-- **Documentation**: https://docs.ai-marketing-tools.com
+- **Email**: sahidattaf@gmail.com
+- **Website**:https://kpnkudil.manus.space/
+- **Documentation**:
 
 ## 🙏 Acknowledgements
 
@@ -240,5 +240,5 @@ For support, please contact:
 
 ---
 
-© 2025 AI Marketing Tools. All rights reserved.
+© 2025   Sahid Jonathan Attaf .AI Marketing Tools. All rights reserved.
 
